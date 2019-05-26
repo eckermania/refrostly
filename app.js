@@ -9,6 +9,16 @@ let inventory = {
   winterTires: 0
 }
 
+console.log('Inventory: ***** ', inventory)
+
+let currentRestockIndex = 0;
+let currentOrderIndex = 0;
+let currentDate = new Date('January 01, 2018, 00:00:00 UTC')
+
+while (currentDate < new Date('January 01, 2019, 00:00:00 UTC')){
+  console.log('in the while loop')
+}
+
 // orders data includes: "order_id", "customer_id", "order_date", "item_ordered", "item_quantity", "item_price"
 $.getJSON('./data/orders.json', function(json) {
   let sortedOrderObjs = json.sort(compareOrderDates);
