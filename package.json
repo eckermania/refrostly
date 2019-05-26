@@ -1,0 +1,23 @@
+{
+  "name": "refrostly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch ./test ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eckermania/refrostly.git"
+  },
+  "author": "Erin Eckerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eckermania/refrostly/issues"
+  },
+  "homepage": "https://github.com/eckermania/refrostly#readme"
+}
