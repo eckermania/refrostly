@@ -11,7 +11,7 @@ The core data currently underpinning this app was provided by the client in the 
 Local testing is conducted using mocha and chai.
 
 ## Author
-Erin Eckerman - [https://www.linkedin.com/in/erineckerman/](https://www.linkedin.com/in/erineckerman/)
+Erin Eckerman - [LinkedIn](https://www.linkedin.com/in/erineckerman/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/eckermania/refrostly/blob/master/LICENSE) for details.
