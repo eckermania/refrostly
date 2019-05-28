@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Refrostly</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet"    href="./styles/reset.css"/>
   <link rel="stylesheet"    href="./styles/base.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  
@@ -15,7 +16,7 @@
     </header>
 
     <main>
-        <h2>Result of Predictive Algorithm: <span id="result"></span></h2>
+        <h2 class="hidden" id="result">Result of Predictive Algorithm: <span id="result-text"></span></h2>
         <div class="hidden" id="out-container">
             <h3>Out of Stock</h2>
             <table id="out-table">
@@ -37,7 +38,4 @@
     </main>
 </body>
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="app.js"></script>
-<script type="text/javascript" src="/data/orders.json"></script>
-<script type="text/javascript" src="/data/restocks.json"></script>
