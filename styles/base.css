@@ -1,3 +1,68 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
+    color: #f1ece6;
+    background-color:#0f1225;
+  }
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    width: 100vw;
+    margin: 2vw 0;
+    color:#adbccd;
+}
+
+h2 {
+    width: 100vw;
+    text-align: center;
+    font-size:3vw;
+    font-weight: bold;
+    margin: 2vw 0;
+    color:#1f4b8e;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3vw;
+    margin: 4vw 0;
+}
+
+#surplus-container, #out-container {
+    width: 70vw;
+    margin: 2vw 15vw;
+}
+
+table, th, td {
+    border: .5vw solid #0f1225;
+    border-radius: 5px;
+}
+
+th {
+    width: 35vw;
+    margin: 2vw 0;
+    font-weight: bolder;
+    background-color: #adbccd;
+    height: 4vw;
+    line-height: 4vw;
+    color:#0f1225;
+}
+
+td {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 2vw 0;
+    line-height: 4vw;
+}
+
+#result-text {
+    color: #eadbd4;
+    font-weight: bold;
+}
+
 .hidden {
     display: none;
 }
