@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Refrostly</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet"    href="./styles/reset.css"/>
   <link rel="stylesheet"    href="./styles/base.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  
@@ -15,26 +16,26 @@
     </header>
 
     <main>
+        <h2 class="hidden" id="result">Result of Predictive Algorithm: <span id="result-text"></span></h2>
         <div class="hidden" id="out-container">
-            <h2>Out of Stock</h2>
+            <h3>Out of Stock</h2>
             <table id="out-table">
-                <tr></tr>
+                <tr>
+                    <th>Item</th>
+                    <th>Date of Stocking Failure</th>
+                </tr>
             </table>
         </div>
         <div class="hidden" id="surplus-container">
-            <h2>Surplus Inventory</h2>
+            <h3>Surplus Inventory</h2>
             <table id="surplus-table">
                 <tr>
                     <th>Item</th>
                     <th>Quantity</th>
-                    <th></th>
                 </tr>
             </table>
         </div>
     </main>
 </body>
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="app.js"></script>
-<script type="text/javascript" src="/data/orders.json"></script>
-<script type="text/javascript" src="/data/restocks.json"></script>
