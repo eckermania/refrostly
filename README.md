@@ -1,4 +1,4 @@
-# [Refrostly] (http://eckermania.github.io/refrostly/)
+# [Refrostly](http://eckermania.github.io/refrostly/)
 The Refrostly site provides a proof of concept for a web-based application that evaluates the success of a stocking algorithm in anticipated customer orders.  "Success" is defined as stock being available every time a customer places an order.  If stocking is successful, the app will provide a success message along with the excess inventory in stock at the end of the year. If a customer places an order for an item that has a current inventory of 0, the app will return the message of "Out of Stock" with the item and time of the "out of stock" event.
 
 ## Getting Started
@@ -9,13 +9,6 @@ The core data currently underpinning this app was provided by the client in the 
 
 ## Testing
 Local testing is conducted using mocha and chai.
-
-## Built With
-- Node.js
-- Express web application framework
-- Embedded JavaScript Templates (EJS)
-- Postgres database
-- Nodemailer server-side email management
 
 ## Author
 Erin Eckerman - [https://www.linkedin.com/in/erineckerman/](https://www.linkedin.com/in/erineckerman/)
